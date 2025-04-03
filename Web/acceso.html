@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acceso</title>
+        <link rel="stylesheet" href="../Estilos/styles_acceso.css">
+        <link rel="icon" type="image/png" href="../Imagenes/Acceso2.png">
+    </head>
+    <body>
+        <header>
+            <div style="text-align: center;">
+                <h1>Página de Acceso</h1>
+                <img src="../Imagenes/Acceso2.png" alt="Logo" style="width: 100px; height: 100px;">
+            </div>
+        </header>
+            <div class="container">
+                <h2>Iniciar Sesión</h2>
+                <form action="../Documentacion/doc_esp.html" method="GET">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                    <div>
+                        <input type="checkbox" id="recordar" name="recordar">
+                        <label for="recordar">Mantener sesión iniciada</label>
+                    </div>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+    </body>
+</html>
